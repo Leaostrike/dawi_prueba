@@ -62,7 +62,7 @@ public class FrmLogin extends JFrame implements ActionListener {
 		contentPane.add(lblUsuario);
 		
 		lblNewLabel_3 = new JLabel("Password :");
-		lblNewLabel_3.setBounds(65, 60, 102, 14);
+		lblNewLabel_3.setBounds(48, 84, 102, 14);
 		contentPane.add(lblNewLabel_3);
 		
 		txtUsuario = new JTextField();
@@ -72,11 +72,11 @@ public class FrmLogin extends JFrame implements ActionListener {
 		
 		txtPassword = new JTextField();
 		txtPassword.setColumns(10);
-		txtPassword.setBounds(177, 57, 157, 20);
+		txtPassword.setBounds(177, 81, 157, 20);
 		contentPane.add(txtPassword);
 		
 		btnNewButton_1 = new JButton("Ingresar");
-		btnNewButton_1.setBounds(376, 56, 89, 23);
+		btnNewButton_1.setBounds(368, 28, 89, 23);
 		contentPane.add(btnNewButton_1);
 		
 	}
