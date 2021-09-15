@@ -75,8 +75,8 @@ public class FrmLogin extends JFrame implements ActionListener {
 		txtPassword.setBounds(177, 57, 157, 20);
 		contentPane.add(txtPassword);
 		
-		btnNewButton_1 = new JButton("Registrar");
-		btnNewButton_1.setBounds(397, 28, 89, 23);
+		btnNewButton_1 = new JButton("Ingresar");
+		btnNewButton_1.setBounds(376, 56, 89, 23);
 		contentPane.add(btnNewButton_1);
 		
 	}
